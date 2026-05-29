@@ -1,0 +1,10 @@
+name: marine-tagger
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - anthropic>=0.40.0
+      - pandas>=2.0.0
